@@ -1,0 +1,21 @@
+{
+  "name": "airbnb-ota",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start;dev": "nodemon index.ts",
+    "dev": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.3.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0"
+  }
+}
