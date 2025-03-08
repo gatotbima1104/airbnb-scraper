@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start;dev": "nodemon index.ts",
     "dev": "ts-node index.ts"
   },
   "keywords": [],
@@ -13,9 +12,14 @@
   "dependencies": {
     "csv-writer": "^1.6.0",
     "dotenv": "^16.4.7",
+    "json2csv": "^6.0.0-alpha.2",
     "puppeteer": "^24.3.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "random-useragent": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
   }
 }
